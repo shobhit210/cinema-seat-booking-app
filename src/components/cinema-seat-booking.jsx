@@ -63,9 +63,7 @@ const CinemaSeatBooking = ({
           selected: false,
         });
       }
-      console.log("SEAT ROW", row, seatRow);
       seats.push(seatRow);
-      console.log("SEATS", seats);
     }
     return seats;
   }, [layout, seatTypes, bookedSeats]);

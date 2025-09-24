@@ -1,12 +1,52 @@
-# React + Vite
+# Cinema Seat Booking Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This application allows users to view and book seats for cinema shows. It provides an interactive interface for selecting available seats, viewing booking status, and confirming reservations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- View available and booked seats
+- Select multiple seats for booking
+- Real-time seat availability updates
+- Confirmation of booking with summary
+- Responsive design for desktop and mobile
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- Frontend: React
+- Styling: Tailwind CSS
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/shobhit210/cinema-seat-booking-app.git
+    ```
+2. Install dependencies:
+    ```bash
+    cd cinema-seat-booking
+    npm install
+    ```
+3. Start the application:
+    ```bash
+    npm start
+    ```
+
+## Usage
+
+- Open the application in your browser.
+- Select the seats you want.
+- Confirm your booking and view the summary.
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for improvements.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For questions or support, contact [shobhit.210@gmail.com](mailto:shobhit.210@gmail.com).
